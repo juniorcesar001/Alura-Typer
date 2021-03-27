@@ -7,7 +7,10 @@ $(document).ready(function () {
     atualizaTamanhoFrase();
     inicializaContadores();
     inicializaCronometro();
+    inicializaMarcadores();
     $("#botao-reiniciar").click(reiniciaJogo);
+
+    atualizaPlacar();
 });
 
 function atualizaTamanhoFrase() {
